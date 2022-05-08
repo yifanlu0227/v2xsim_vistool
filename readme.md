@@ -22,7 +22,7 @@ python collaboration_view.py
 python location_in_bev.py
 python scene_overview.py
 ```
-Then you can use `ima2video.py` to make image sequence to video.
+Then you can use `img2video.py` to make image sequence to video.
 
 5. You can run `visualize_data_seq.py` to see how to use the warp function `visualize` mentioned in 2., just 
 ```
