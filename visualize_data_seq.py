@@ -124,7 +124,7 @@ def main():
         lidar_np_ego = cav_content['lidar_np']
 
         # Output of network is tensor of bounding boxes with shape [N, 8, 3]
-        # We simply tranform numpy array to tensor of get gt_boxes
+        # We simply tranform numpy array to tensor for gt_boxes
         # Add noise to the box to simulate network predict
 
         gt_boxes_tensor = torch.from_numpy(object_np)
