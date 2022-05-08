@@ -24,6 +24,11 @@ python scene_overview.py
 ```
 Then you can use `ima2video.py` to make image sequence to video.
 
+5. You can run `visualize_data_seq.py` to see how to use the warp function `visualize` mentioned in 2., just 
+```
+python visualize_data_seq.py
+```
+
 GIFs are shown as below:
 ![](gifs/single_view_agent1.gif "single_view_agent1")
 ![](gifs/collaboration_view_agent1.gif "collaboration_view_agent1")
