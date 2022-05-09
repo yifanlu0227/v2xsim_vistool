@@ -27,6 +27,10 @@ Then you can use `img2video.py` to make image sequence to video.
 ```
 python visualize_data_seq.py
 ```
+Result:
+![](vis_seq/3d_00000.png "3d_00000")
+![](vis_seq/bev_00000.png "bev_00000")
+
 
 GIFs are shown as below:
 ![](gifs/single_view_agent1.gif "single_view_agent1")
