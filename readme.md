@@ -5,8 +5,7 @@
 I first reconstruct the nuscenes-format data, since it's very slow to read?
 1.  `process_v2xsim_v2.py` will generate pkl file containing some meta-information of v2x-sim dataset, including lidar pose, gt boxes, and path to actually lidar file.
 ```
-cd dataset_process
-python process_v2xsim_v2.py
+python dataset_process/process_v2xsim_v2.py
 ```
 
 
